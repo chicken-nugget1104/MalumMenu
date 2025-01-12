@@ -15,9 +15,15 @@ public static class PlayerPickMenu
     // Found here: https://github.com/AlchlcDvl/TownOfUsReworked/blob/9f3cede9d30bab2c11eb7c960007ab3979f09156/TownOfUsReworked/Custom/Menu.cs
     public static ShapeshifterMinigame getShapeshifterMenu()
     {
-        var rolePrefab = Utils.getBehaviourByRoleType(AmongUs.GameOptions.RoleTypes);
+        var rolePrefab = Utils.getBehaviourByRoleType(AmongUs.GameOptions.RoleTypes.Shapeshifter);
         return Object.Instantiate(rolePrefab?.Cast<ShapeshifterRole>(), GameData.Instance.transform).ShapeshifterMenu;
     }
+
+    foreach (var role in Enum.GetValues(typeof(AmongUs.GameOptions.RoleTypes)))
+    {
+        Console.WriteLine(role);
+    }
+
 
     // Open a PlayerPickMenu to pick a specific player to target
     public static void openPlayerPickMenu(List<NetworkedPlayerInfo> playerList, Il2CppSystem.Action action)
