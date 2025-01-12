@@ -445,6 +445,6 @@ public static class Utils
             Debug.LogError($"Failed to read Texture: {path}");
         }
         return null;
-    } 
+    }
 }
 
