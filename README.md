@@ -27,7 +27,11 @@
 - [❓ FAQ](#-faq)
 - [⚠️ Disclaimer](#️-disclaimer)
 
-# 🎁 Releases
+# 🎁 Releases (DELUXE)
+| Mod Version| Among Us - Version | Link |
+|----------|-------------|-----------------|
+
+# 🎁 Releases (PRE-DELUXE)
 | Mod Version| Among Us - Version | Link |
 |----------|-------------|-----------------|
 | v2.4.2 | 2024.9.4 | [Download](https://github.com/scp222thj/MalumMenu/releases/download/v2.4.2/MalumMenu-2.4.2.zip) |
